@@ -2,6 +2,7 @@ import socket
 import os
 import sys
 
+# usage penpy <ip> <port>
 def retBanner(ip, port):
 	try:
 		socket.setdefaulttimeout(2)
